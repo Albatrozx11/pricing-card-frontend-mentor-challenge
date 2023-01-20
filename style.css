@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  background-color: #e5eff5;
+  font-family: Karla;
+  font-weight: 700;
+  padding: 20px;
+}
+h2,
+h3,
+p {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#card {
+  width: 600px;
+  height: 440px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+#top-section {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  padding: 22px;
+}
+#bottom-section {
+  width: 100%;
+  height: 60%;
+  color: white;
+}
+
+#bottom-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: rgba(42, 178, 175);
+  padding: 20px;
+}
+
+#bottom-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: rgba(42, 178, 175, 0.7);
+  padding: 20px;
+}
+
+.btn-1 {
+  width: 90%;
+  margin-left: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #c0df34;
+  border: none;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  color: white;
+  font-family: Karla;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 8px 8px -5px;
+  transform: translate3d(0, 1px, 0);
+}
+
+#top-section h2 {
+  color: rgb(42, 178, 175);
+  margin-bottom: 24px;
+}
+
+#top-section h3 {
+  color: #cde342;
+  margin-bottom: 12px;
+}
+
+#top-section p {
+  color: #98a6bd;
+  line-height: 1.5rem;
+}
+
+#bottom-left h3 {
+  color: white;
+  margin: 10px;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+#money {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.price {
+  display: inline-block;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.month {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  color: White;
+  font-weight: 400;
+  margin-left: 6px;
+  opacity: 0.8;
+}
+
+#bottom-left p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+
+#bottom-right ul {
+  list-style-type: none;
+  list-style-position: outside;
+  font-weight: 400;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  padding-left: 10px;
+  opacity:0.8;
+}
+
+#bottom-right h3 {
+  padding-left: 10px;
+}
