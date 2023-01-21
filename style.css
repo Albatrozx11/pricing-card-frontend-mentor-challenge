@@ -138,10 +138,10 @@ p {
 
 @media (min-width:576px){
   #card{
-    width:550px;
-    height:400px;
+    width: 560px;
+    height: 440px;
   }
-  #bottom-left, #bottom-right{
+  #bottom-right, #bottom-left{
     width:50%;
   }
 }
